@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw datasets
+raw/*
+!raw/.gitkeep
+
+# Generated datasets
+data/*
+!data/.gitkeep
+
+# Generated models
+models/*
+!models/.gitkeep
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
